@@ -2,6 +2,7 @@ html {
     font-size: 10px;
     background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body,
@@ -14,7 +15,7 @@ html {
 .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    min-height: 93vh;
     align-items: center;
     justify-content: center;
 }
@@ -49,4 +50,18 @@ kbd {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
+}
+footer {
+    padding: 0 15px 15px 15px;
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #ffc600;
+    text-decoration: none;
 }
